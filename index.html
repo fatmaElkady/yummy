@@ -1,0 +1,267 @@
+<html lang="en">
+    <head>
+
+   <link rel="stylesheet" href="css/all.css"> 
+   <link rel="stylesheet" href="css/bootstrap.css">    
+   <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="loadScrean" >
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+        </div>
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        <div class="setting d-flex">
+            <div class="w-75   part1 ">
+                <div class="nav">
+                    <ul class="list-unstyled">
+                        <li onclick="search()" class="item py-2">search</li>
+                        <li  onclick="category()" class="item py-2">categories</li>
+                        <li onclick="area() " class="item py-2">Area</li>
+                        <li onclick="ingrediants()" class="item py-2">ingrediants</li>
+                        <li  onclick="displayContact()"  class="item py-2">contact us</li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class=" ">
+                        <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-25 part2">
+            <img src="img/logo.png" class="w-100" alt="">
+
+            <div class="icon-bar">
+               <i class="fa-solid open-close-icon fa-align-justify fa-2x  "></i> 
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            </div>
+             
+        </div>
+
+
+
+        <div class="container py-5   meals">
+             <div class="row g-5" id="mymeals">
+                <!-- <div class=" col-lg-3 col-md-6 col-sm-12">
+                    <div class="rounded-2 position-relative cont overflow-hidden">
+                    <img src="img/58oia61564916529.jpg" class="w-100" alt="">
+                     <div class="layer   position-absolute ">
+                        <h4>hiiiiiiiiiiiiii</h4>
+                     </div>
+                    </div>
+             </div> -->
+         </div>
+         </div>
+
+
+         <div class="container py-5   catmeals">
+            <div class="row g-2" id="mycategory">
+               <!-- <div class=" col-lg-3 col-md-6 col-sm-12">
+                   <div class="rounded-2 position-relative cont overflow-hidden">
+                   <img src="img/58oia61564916529.jpg" class="w-100" alt="">
+                    <div class="layer   position-absolute ">
+                       <h4>hiiiiiiiiiiiiii</h4>
+                    </div>
+                   </div>
+            </div> -->
+        </div>
+        </div>
+
+        <div class="container py-5   areameals">
+            <div class="row g-2" id="myarea">
+               <!-- <div class="col-md-3">
+                <div class="rounded-2 text-center cursor-pointer">
+                        <i class="fa-solid fa-house-laptop fa-4x"></i>
+                        <h3>American</h3>
+                </div>
+        </div> -->
+        </div>
+        </div>
+
+
+
+        <div class="container py-5   intmeals">
+            <div class="row g-2" id="myingrediants">
+               <!-- <div class="col-md-3">
+                <div class="rounded-2 text-center cursor-pointer">
+                        <i class="fa-solid fa-house-laptop fa-4x"></i>
+                        <h3>American</h3>
+                </div>
+        </div> -->
+        </div>
+        </div>
+
+
+        <div class="container w-75   search1" id="search">
+            <div class="row py-4 ">
+                <div class="col-md-6 ">
+                    <input  onkeyup="searchName(this.value)" class="form-control bg-transparent text-white" type="text" placeholder="Search By Name" id="nameSe">
+                </div>
+                <div class="col-md-6">
+                    <input  onkeyup="searchLetter(this.value)"  maxlength="1" class="form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">
+                </div>
+            </div>
+            <div class="row g-2" id="mysearch">
+                 
+         </div>
+        
+        
+        </div>
+
+
+
+
+
+         <section class="details position-absolute top-0 end-0 start-0 bottom-0 text-light d-none " id="Details">
+            <div class="container py-5">
+               <header class="hreader2 d-flex justify-content-between align-items-center p-2">
+                    
+                   <button type="button" class="btn-close btn-close-white" aria-label="Close" id="close"></button>
+               </header>
+       
+                <div class="row g-4" id="detailsss">
+                 <!-- <div class="col-md-4">
+                    <img src="img/58oia61564916529.jpg" class="w-100 rounded-2" alt="">
+                    <h2>Corda</h2>
+                 </div>
+                 <div class="col-md-8">
+                    <h2>Instructions</h2>
+                    <p>Fry the finely chopped onions and minced meat in oil. Add the salt and pepper. Grease a round baking tray and put a layer of pastry in it. Cover with a thin layer of filling and cover this with another layer of filo pastry which must be well coated in oil. Put another layer of filling and cover with pastry. When you have five or six layers, cover with filo pastry, bake at 200ºC/392ºF for half an hour and cut in quarters and serve.</p>
+                    <h3>Area : Croatian</h3>
+                    <h3>Category : Side</h3>
+                    <h3>Recipes :</h3>
+                    <ul class="list-unstyled de-list">
+                        <li></li>
+                    </ul>
+                    <h3>Tags :</h3>
+                   <ul class="list-unstyled de-list">
+                    <li></li>
+                </ul>
+
+                <a href="" class="btn btn-success">Source</a>
+                <a href="" class="btn btn-danger">Youtube</a>
+                 </div> -->
+
+
+            </div> 
+
+
+</section>
+
+
+
+            <div  id="contactM" class="min-vh-100  position-relative  d-none ">
+               
+         <div class="container">
+                    <div class="row py-5 g-4 " id="displayContact">
+                        <div class="contact min-vh-100 d-flex justify-content-center align-items-center">
+                  <div class="container w-75 text-center">
+                    <div class="row g-4">
+                      <div class="col-md-6">
+                        <input id="nameInput" type="text" placeholder="Enter Your Name" class="form-control" onkeyup="validation()">
+                        <div  id="nameAlert"   class="alert alert-danger w-100 mt-2 d-none">
+                          Special charachters and numbers not allowed
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <input id="emailInput" type="email" placeholder="Enter Your Email" class="form-control" onkeyup="validation()">
+                        <div id="emailAlert" class="alert alert-danger w-100 mt-2 d-none">
+                         Email not valid *example@yyy.zzz
+                        </div>
+                      </div>
+            
+                      <div class="col-md-6">
+                        <input id="phoneInput" type="text" placeholder="Enter Your Phone" class="form-control" onkeyup="validation()">
+                        <div id="phoneAlert" class="alert alert-danger w-100 mt-2 d-none">
+                         Email valid phone number
+                        </div>
+                      </div>
+            
+                      <div class="col-md-6">
+                        <input id="ageInput" type="number" placeholder="Enter Your Age" class="form-control" onkeyup="validation()">
+                        <div id="ageAlert" class="alert alert-danger w-100 mt-2 d-none">
+                         Email valid Age
+                        </div>
+                      </div>
+            
+                      <div class="col-md-6">
+                        <input id="passInput" type="password" placeholder="Enter Your Password" class="form-control" onkeyup="validation()">
+                        <div id="passAlert" class="alert alert-danger w-100 mt-2 d-none">
+                         Email valid password*Minimum eight charachters , at least one letter and one number:*
+                        </div>
+                      </div>
+            
+                      <div class="col-md-6">
+                        <input id="repassInput" type="password" placeholder="Repassword" class="form-control" onkeyup="validation()">
+                        <div id="repassAlert" class="alert alert-danger w-100 mt-2 d-none">
+                         valid Repassword
+                        </div>
+                      </div>
+                    </div>
+            
+                    <button id="submit" disabled class="btn btn-outline-danger px-2 mt-3">Submit</button>
+                  </div>
+                 </div> 
+                    </div>
+                </div>
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
